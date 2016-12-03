@@ -1,18 +1,248 @@
-<div class="row">
-  <div class="column medium-3" style="background-color: #f1f1f1; height: 1000px">
-      <h1>CCLE | <small>Common Collaboration & Learning Environment</small></h1>
-  </div>
-  <div class="column medium-3">
-      <h2> Browse By </h1>
-      <ul class="menu">
-          <li><a href="#">Subject area</a></li>
-          <li><a href="#">Division</a></li>
-          <li><a href="#">Instructor</a></li>
-          <li><a href="#">Collaboration sites</a></li>
-      </ul>
+<div id="container">
+    <div class="top-bar" style="background-color: #3283BE">
 
+      <div class="top-bar-left">
+        <ul style="background-color: #3283BE" class="menu">
+          <li class="menu-text">
+            <div class="header-logo">
+                    <a href="https://ccle.ucla.edu">
+                      <span><img class="logo-ucla" src="./assets/img/UCLA CCLE LOGO1.png" alt="UCLA CCLE Common Collaboration and Learning Environment"></span>
+                    </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <!-- Top Bar Navigation -->
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li>
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li>
+                <a class="menu-text" style="background-color: #FFBC00; color: black" href="#">Need Help<i class="fa fa-fw fa-question-circle"></i></a>
+                <ul class="menu">
+                  <li><a href="https://ccle.ucla.edu/blocks/ucla_help/index.php"><span class="arrow-up"></span>Submit a help request</a></li>
+                  <li><a href="https://docs.ccle.ucla.edu/">View self help articles</a></li>
+                  <li><a href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">Read tips &amp; updates</a></li>
+                  <li><a href="https://ccle.ucla.edu/course/request.php">Request a site</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li style="color: white; background-color: #3283BE; font-size: small"><strong>You are not logged in</strong></li> 
+          <li><a class="menu-text" style="background-color: #FFBC00; color: black" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <br>
+  <!-- Start of Content -->
+  <div id="body">
+    <div class="row" id="content">
+      <div class="medium-9 columns">
+
+        <!-- Hero Image -->
+        <div class="hero-img">
+            <img class="hero image-ucla" src="./assets/img/UCLA HERO IMAGE.png" alt="UCLA CCLE Common Collaboration and Learning Environment">
+        </div>
+        <br>
+        <!-- Search Bar -->
+        <form class="panel callout radius">
+          <div class="row">
+            <div class="small-3 columns">
+                <input type="text" placeholder="Type keyword here" />
+            </div>
+
+            <div class="small-3 columns">
+                  <select>
+                    <option value="title">No filter</option>
+                    <option value="description">Title</option>
+                    <option value="null">Description</option>
+                  </select>
+            </div>
+
+            <div class="small-3 columns">
+                  <select>
+                    <option value="course_collab">Show all sites</option>
+                    <option value="course">Course</option>
+                    <option value="collab">Collaboration</option>
+                  </select>
+            </div>
+
+            <div class="small-3 columns">
+                  <a href="#" class="button">Search</a>
+            </div>
+          </div>
+        </form>
+        <!-- End of Search Bar -->
+
+        <div class="panel callout radius" style=" border: none; background-color: #3785BD"><h4 class="notices-box">CCLE NOTICES</h4></div>
+
+        <!-- Notice Tiles -->
+        <ul class="small-block-grid-3 no-bullet">
+          <li>
+            <div class="panel callout radius">
+              <h5>Interested in working for CCLE?</h5>
+              <hr>
+              <p>We are looking for a full-time developer with design skills to help us develop innovated user experiences across the system from instructors designing and creating their course, to students interacting with their learning materials, and to staff supporting the system.
+              </p>
+                <ul class="menu simple">
+                  <li><a class="notice-links" href="https://hr.mycareer.ucla.edu/applicants/Central?quickFind=69130">Learn more and apply</a></li>
+                </ul>
+            </div> 
+          </li>
+          <li>
+            <div class="panel callout radius">
+              <h5>Couns/PsychSvc(CAPS)</h5>
+              <hr>
+              <p>Counseling and Psychological Services (CAPS) offers services designed to foster the development of healthy well-being necessary for success in a complex global environment.
+              </p>
+                <ul class="menu simple">
+                  <li><a class="notice-links" href="http://www.counseling.ucla.edu/">www.counseling.ucla.edu</a></li>
+                  <li class="phone"><img src="./assets/img/phone icon.png">310-825-0768</li>
+                </ul>
+            </div> 
+          </li>
+          <li>
+            <div class="panel callout radius">
+              <h5>Center for Accessible Education (CAE)</h5>
+              <hr>
+              <p>The University provides services to students with disabilities and should any student require disability-related accommodations, they should contact the Center for Accessible Education at:
+              </p>
+                <ul class="menu simple">
+                  <li class="phone"><a class="notice-links" href="http://www.cae.ucla.edu/">www.cae.ucla.edu</a></li>
+                  <li><img src="./assets/img/phone icon.png">TDD 310-206-6083</li>
+                </ul>
+            </div> 
+          </li>
+        </ul>
+        
+      <!-- End of Notice Container -->
+      </div>
+
+      <!-- Sticky Sidebar Container -->
+      <div class="medium-3 columns sticky-container" data-sticky-container="" style="height: 298px;">
+        <div class="sticky" data-sticky="89cmpf-sticky" data-anchor="content" data-resize="wosjzw-sticky" style="max-width: 588px;" data-events="resize">
+
+          <div style="margin-bottom: 15px">
+            <h6 style="border: none; color: black; background-color: #E68C4A; text-align: center; padding: 10px 0 10px 0">Fall 2016 | <strong>Week 10</strong></h6>
+          </div>
+          <!-- Browse By Container -->
+          <div>
+            <div style="text-align: center">
+              <h6 style="border: none; color: white; font-weight: bold; background-color: #3785BD; text-align: center; padding: 10px 0 10px 0">BROWSE BY</h6>
+            </div>
+            <ul class="browseby-links no-bullet">
+              <li class="browseby-labels" ><a class="browse-links" href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=subjarea"><img src="./assets/img/subject icon.png"><span class="titles">Subject Area</span></a></li>
+              <li class="browseby-labels"><a href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=division"><img src="./assets/img/division icon.png"><span class="titles">Division</span></a></li>
+              <li class="browseby-labels"><a href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=instructor"><img src="./assets/img/instructor icon.png"><span class="titles">Instructor</span></a></li>
+              <li class="browseby-labels"><a href="https://ccle.ucla.edu/blocks/ucla_browseby/view.php?type=collab"><img src="./assets/img/collaboration icon.png"><span class="titles">Collaboration Sites</span></a></li>
+            </ul>
+          </div>
+          
+          <!-- Tips and Update Container -->
+          <div>
+            <ul class="tabs" data-tabs id="example-tabs">
+              <li class="tabs-title is-active"><a href="#updates" aria-selected="true"><h6 class="tabs-label" style="margin:0 15px 0 15px">Updates</h6></a></li>
+              <li class="tabs-title"><a href="#tips"><h6 class="tabs-label" style="margin:0 25px 0 25px">Tips</h6></a></li>
+            </ul>
+            <div class="tabs-content" data-tabs-content="example-tabs">
+              <div class="tabs-panel is-active" id="updates">
+                <ul class="no-bullet">
+                  <li>
+                    <div class="reveal update-modal" id="update1" data-reveal>
+                      <h6><strong>Nov 29, 2016</strong></h6>
+                        <p>Upgrade to Moodle 3.1.3</p>
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <p><a data-open="update1">Nov 29, 2016</a></p>
+                   </li>
+                  <li>
+                    <div class="reveal update-modal" id="update2" data-reveal>
+                      <h6><strong>Nov 9, 2016</strong></h6>
+                        <p><strong>Improvement</strong></p>
+                        <p>Turnitin interface: Some examples are the tooltip on blue pencil icon says "Grade" on hover and the tooltip on "Download submission"</p>
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <p><a data-open="update2">Nov 9, 2016</a></p>
+                  </li>
+                  <li>
+                    <div class="reveal update-modal" id="update3" data-reveal>
+                      <h6><strong>Oct 25, 2016</strong></h6>
+                        <p><strong>Improvements</strong></p>
+                          <ul>
+                            <li>Media site upgraded to version 201607220</li>
+                            <li>Upgrade to Moodle 3.1.2</li>
+                          </ul>
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <p><a data-open="update3">Oct 25, 2016</a></p>
+                  </li>
+                  <li>
+                    <div class="reveal update-modal" id="update4" data-reveal>
+                      <h6><strong>Updated on: Sept 27, 2016</strong></h6>
+                        <p><strong>Improvements</strong></p>
+                        <ul>
+                            <li>Turnitin Version 2 improvements made and more improvements are planned during the Fall Quarter</li>
+                            <li>CCLE has integrated Media resources of the UCLA Library's 'Digital audio reserves'. If your course has media reserves, you will find them in the "Media resources" section in the Site menu block.</li>
+                          </ul>
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                  <br>
+                  <li><a id= "more-updates" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">See more updates</a></li>
+                </ul>
+              </div>
+              <div class="tabs-panel" id="tips">
+                <ul class="no-bullet">
+                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Turnitin_Assignment_v2#Allow_resubmissions"> Turnitin: Allow resubmissions</a></li>
+                  <br>
+                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Turnitin_Assignment_v2#Allow_Submissions_after_the_Due_Date">Turnitin: Allow Submissions after the Due Date</a></li>
+                  <br>
+                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Assignments#.22Hide.22_the_Grade">Start grading now! Easily hide an assignment while you are grading.</a></li>
+                  <br>
+                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">See more tips</a></li>
+                </ul>
+              </div>
+            </div>
+
+        </div>
+      <!-- End of Sticky Container -->
+      </div>
+
+    <!-- End of Content Container -->
   </div>
-  <div class="column medium-6">
-      <!-- empty on purpose -->
+    
   </div>
+  <div id="footer">
+    <footer> 
+        <span>© 2016 UC Regents</span>
+        <span>
+          &nbsp;<a id="footer-links" href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=926">Contact</a>
+          &nbsp;<a id="footer-links" href="https://ccle.ucla.edu/course/view/aboutccle?section=0">About</a>
+          &nbsp;<a id="footer-links" href="https://ccle.ucla.edu/theme/uclashared/view.php?page=privacy">Privacy</a>
+          &nbsp;<a id="footer-links" href="https://ccle.ucla.edu/theme/uclashared/view.php?page=copyright">Copyright</a>
+          &nbsp;<a id="footer-links" href="https://ccle.ucla.edu/course/view/aboutccle?sectionid=6996">UCLA links</a>
+          &nbsp;<a id="footer-links"href="http://www.ucla.edu/" target="_blank">UCLA</a>
+          &nbsp;<a id="footer-links"href="http://www.registrar.ucla.edu/" target="_blank">Registrar</a>
+          &nbsp;<a id="footer-links"href="http://my.ucla.edu/" target="_blank">MyUCLA</a>
+          &nbsp;<a id="footer-links"href="http://www.cae.ucla.edu/" target="_blank">Disability</a>
+          &nbsp;<a id="footer-links"href="http://www.counseling.ucla.edu/" target="_blank">Couns/PsychSvc (CAPS)</a>
+        </span>
+      </footer> 
+  </div>
+<!-- End of container wrapper -->
 </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+
+
+

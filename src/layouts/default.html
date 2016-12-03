@@ -8,12 +8,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCLE | About</title>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+    <!-- Styles for page -->
+    <style type="text/css">
+
+      html, body, h1, h2, h3, h4, h5, h6 {
+        font-family: proxima-nova, sans-serif;
+      }
+
+      html,
+      body {
+         margin: 0;
+         padding: 0;
+         height: 100%;
+      }
+
+      p {
+        color: #323232;
+      }
+
+      h5 {
+        color: #4E8DB6;
+      }
+
+      #container {
+         min-height: 100%;
+         position: relative;
+      }
+
+      #body {
+         padding: 10px;
+         padding-bottom: 60px;   /* Height of the footer */
+      }
+
+      #footer {
+         position: absolute;
+         bottom: 0%;
+         width: 100%;
+         right: 0%;
+         left: 0%;
+         height: 60px;   /* Height of the footer */
+         background-color: #2B4886;
+         text-align: center;
+         color: #FFFFFF;
+      }
+
+      #tips {
+        font-size: small;
+      }
+
+      #updates {
+        font-size: small;
+      }
+
+      #more-updates:hover {
+        text-decoration: underline;
+      }
+
+      #footer #footer-links {
+        color: white;
+        font-family: proxima-nova, sans-serif;
+        font-size: small;
+      }
+
+      #footer #footer-links:hover {
+        text-decoration: underline;
+        color: #FFBC00;
+      }
+
+      .hero-img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .header-logo .logo-ucla {
+          width: 50%;
+          height: 50%;
+          display: inline;
+      }
+
+      .notices-box{
+       text-align: center;
+       color: white;
+      }
+      
+      .notice-links {
+        text-decoration: underline;
+        color: #8237ff;
+      }
+
+      .notice-links:hover {
+        color: #1e4b87;
+      }
+
+      .browseby-links .titles {
+        margin-left: 20px;
+      }
+
+      .browseby-links .titles:hover {
+        font-weight: bold;
+      }
+
+      .browseby-labels{
+        margin: 10px 10px 10px 10px;
+      }
+
+      .browseby-labels:hover {
+        text-align: left;
+        background-color: #E6E6E6;
+      }
+
+      .update-modal {
+        top: 50%;
+        left: 20%;
+        position: fixed;
+      }
+
+      .phones {
+        margin-left: 20px;
+      }
+
+      .tip-links:hover {
+        text-decoration: underline; 
+      }
+
+      .tabs-label {
+        font-weight: bold;
+        color: #323232;
+      }
+
+      .tabs-title a{
+        background-color: #3785BD;
+      }
+
+      .tabs-label {
+        color: white;
+      }
+
+    </style>
   </head>
   <body>
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
 
+
     <script src="{{root}}assets/js/app.js"></script>
+
   </body>
 </html>
