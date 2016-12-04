@@ -47,6 +47,7 @@
         <!-- Hero Image -->
         <div class="hero-img">
             <img class="hero image-ucla" src="./assets/img/UCLA HERO IMAGE.png" alt="UCLA CCLE Common Collaboration and Learning Environment">
+            <a href="https://ccle.ucla.edu/course/view/aboutccle?section=0"><P class="hero-img-btn">Learn more</P></a>
         </div>
         <br>
         <!-- Search Bar -->
@@ -58,9 +59,9 @@
 
             <div class="small-3 columns">
                   <select>
-                    <option value="title">No filter</option>
                     <option value="description">Filter By Title</option>
                     <option value="null">Filter By Description</option>
+                    <option value="title">No filter</option>
                   </select>
             </div>
 
@@ -160,7 +161,7 @@
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <p><a data-open="update1">Nov 29, 2016</a></p>
+                    <p><a class="tab-links" data-open="update1">Nov 29, 2016</a></p>
                    </li>
                   <li>
                     <div class="reveal update-modal" id="update2" data-reveal>
@@ -171,7 +172,7 @@
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <p><a data-open="update2">Nov 9, 2016</a></p>
+                    <p><a class="tab-links" data-open="update2">Nov 9, 2016</a></p>
                   </li>
                   <li>
                     <div class="reveal update-modal" id="update3" data-reveal>
@@ -185,7 +186,7 @@
                         <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <p><a data-open="update3">Oct 25, 2016</a></p>
+                    <p><a class="tab-links" data-open="update3">Oct 25, 2016</a></p>
                   </li>
                   <li>
                     <div class="reveal update-modal" id="update4" data-reveal>
@@ -199,18 +200,23 @@
                         <span aria-hidden="true">&times;</span>
                         </button>
                   <br>
-                  <li><a id= "more-updates" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">See more updates</a></li>
+                  <li><a class="tab-links" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">See more updates</a></li>
                 </ul>
               </div>
               <div class="tabs-panel" id="tips">
                 <ul class="no-bullet">
-                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Turnitin_Assignment_v2#Allow_resubmissions"> Turnitin: Allow resubmissions</a></li>
-                  <br>
-                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Turnitin_Assignment_v2#Allow_Submissions_after_the_Due_Date">Turnitin: Allow Submissions after the Due Date</a></li>
-                  <br>
-                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Assignments#.22Hide.22_the_Grade">Start grading now! Easily hide an assignment while you are grading.</a></li>
-                  <br>
-                  <li><a class="tip-links" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">See more tips</a></li>
+                  <li>
+                    <a class="tab-links" href="https://docs.ccle.ucla.edu/w/Turnitin_Assignment_v2#Allow_resubmissions"> Turnitin: Allow resubmissions</a>
+                  </li>
+                  <li>
+                    <a class="tab-links" href="https://docs.ccle.ucla.edu/w/Turnitin_Assignment_v2#Allow_Submissions_after_the_Due_Date">Turnitin: Allow Submissions after the Due Date</a>
+                  </li>
+                  <li>
+                    <a class="tab-links" href="https://docs.ccle.ucla.edu/w/Assignments#.22Hide.22_the_Grade">Start grading now! Easily hide an assignment while you are grading.</a>
+                  </li>
+                  <li>
+                    <a class="tab-links" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">See more tips</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -243,6 +249,8 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="jquery.popup.js"></script>
+<script src="jquery.popup.dialog.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
 

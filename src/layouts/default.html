@@ -60,16 +60,8 @@
          color: #FFFFFF;
       }
 
-      #tips {
-        font-size: small;
-      }
-
       #updates {
         font-size: small;
-      }
-
-      #more-updates:hover {
-        text-decoration: underline;
       }
 
       #footer #footer-links {
@@ -86,6 +78,24 @@
       .hero-img {
         width: 100%;
         height: 100%;
+        position: relative;
+      }
+
+      .hero-img-btn {
+        z-index: 999;
+        position: absolute;
+        top: 78%;
+        left: 79%;
+        padding: 0.8%;
+        border: solid;
+        border-width: 1px;
+        color: white;
+      }
+
+      .hero-img-btn:hover {
+        color: #FEE633;
+        opacity: 10%;
+        border-width: medium;
       }
 
       .header-logo .logo-ucla {
@@ -133,8 +143,13 @@
         margin-right: 10px;
       }
 
-      .tip-links:hover {
-        text-decoration: underline; 
+      .tab-links{
+        font-size: small;
+      }
+
+      .tab-links:hover {
+        text-decoration: underline;
+        color: #8237ff;  
       }
 
       .tabs-label {
