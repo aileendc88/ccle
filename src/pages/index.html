@@ -21,15 +21,18 @@
               <li>
                 <a class="menu-text" style="background-color: #FFBC00; color: black" href="#">Need Help<i class="fa fa-fw fa-question-circle"></i></a>
                 <ul class="menu">
-                  <li><a href="https://ccle.ucla.edu/blocks/ucla_help/index.php"><span class="arrow-up"></span>Submit a help request</a></li>
-                  <li><a href="https://docs.ccle.ucla.edu/">View self help articles</a></li>
-                  <li><a href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">Read tips &amp; updates</a></li>
-                  <li><a href="https://ccle.ucla.edu/course/request.php">Request a site</a></li>
+                  <li><a class="help-labels" href="https://ccle.ucla.edu/blocks/ucla_help/index.php"><span class="arrow-up"></span>Submit a help request</a></li>
+                  <li><a class="help-labels" href="https://docs.ccle.ucla.edu/">View self help articles</a></li>
+                  <li><a class="help-labels" href="https://docs.ccle.ucla.edu/w/Tips_and_Updates">Read tips &amp; updates</a></li>
+                  <li><a class="help-labels" href="https://ccle.ucla.edu/course/request.php">Request a site</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li style="color: white; background-color: #3283BE; font-size: small"><strong>You are not logged in</strong></li> 
+          <li style="background-color: #3785BD"><h6 style="visibility: hidden">Space</h6></li>
+          <li style="color: white; background-color: #3283BE; font-size: small"><strong>You are not logged in</strong>
+          </li> 
+          <li style="background-color: #3785BD"><h6 style="visibility: hidden">Space</h6></li>
           <li><a class="menu-text" style="background-color: #FFBC00; color: black" href="#">Login</a>
           </li>
         </ul>
@@ -47,17 +50,17 @@
         </div>
         <br>
         <!-- Search Bar -->
-        <form class="panel callout radius">
+        <form id="callout-secondary" class="callout small">
           <div class="row">
-            <div class="small-3 columns">
+            <div class="small-4 columns">
                 <input type="text" placeholder="Type keyword here" />
             </div>
 
             <div class="small-3 columns">
                   <select>
                     <option value="title">No filter</option>
-                    <option value="description">Title</option>
-                    <option value="null">Description</option>
+                    <option value="description">Filter By Title</option>
+                    <option value="null">Filter By Description</option>
                   </select>
             </div>
 
@@ -69,7 +72,7 @@
                   </select>
             </div>
 
-            <div class="small-3 columns">
+            <div class="small-3 columns" style="width: 130px">
                   <a href="#" class="button">Search</a>
             </div>
           </div>
@@ -99,7 +102,7 @@
               </p>
                 <ul class="menu simple">
                   <li><a class="notice-links" href="http://www.counseling.ucla.edu/">www.counseling.ucla.edu</a></li>
-                  <li class="phone"><img src="./assets/img/phone icon.png">310-825-0768</li>
+                  <li class="phone"><img class= "phone-icon" src="./assets/img/phone icon.png">310-825-0768</li>
                 </ul>
             </div> 
           </li>
@@ -111,7 +114,7 @@
               </p>
                 <ul class="menu simple">
                   <li class="phone"><a class="notice-links" href="http://www.cae.ucla.edu/">www.cae.ucla.edu</a></li>
-                  <li><img src="./assets/img/phone icon.png">TDD 310-206-6083</li>
+                  <li class="phone"><img class= "phone-icon" src="./assets/img/phone icon.png">TDD 310-206-6083</li>
                 </ul>
             </div> 
           </li>
@@ -144,7 +147,7 @@
           <div>
             <ul class="tabs" data-tabs id="example-tabs">
               <li class="tabs-title is-active"><a href="#updates" aria-selected="true"><h6 class="tabs-label" style="margin:0 15px 0 15px">Updates</h6></a></li>
-              <li class="tabs-title"><a href="#tips"><h6 class="tabs-label" style="margin:0 25px 0 25px">Tips</h6></a></li>
+              <li class="tabs-title"><a href="#tips"><h6 class="tabs-label" style="margin:0 30.5px 0 30.5px">Tips</h6></a></li>
             </ul>
             <div class="tabs-content" data-tabs-content="example-tabs">
               <div class="tabs-panel is-active" id="updates">
@@ -215,7 +218,6 @@
         </div>
       <!-- End of Sticky Container -->
       </div>
-
     <!-- End of Content Container -->
   </div>
     

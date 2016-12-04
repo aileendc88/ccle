@@ -43,6 +43,11 @@
          padding-bottom: 60px;   /* Height of the footer */
       }
 
+      #callout-secondary {
+        background-color: #F2F9FC; 
+        border: none;
+      }
+
       #footer {
          position: absolute;
          bottom: 0%;
@@ -84,9 +89,9 @@
       }
 
       .header-logo .logo-ucla {
-          width: 50%;
-          height: 50%;
-          display: inline;
+        width: 50%;
+        height: 50%;
+        display: inline;
       }
 
       .notices-box{
@@ -120,14 +125,12 @@
         background-color: #E6E6E6;
       }
 
-      .update-modal {
-        top: 50%;
-        left: 20%;
-        position: fixed;
+      .phone {
+        margin-left: 20px;
       }
 
-      .phones {
-        margin-left: 20px;
+      .phone-icon {
+        margin-right: 10px;
       }
 
       .tip-links:hover {
@@ -135,16 +138,22 @@
       }
 
       .tabs-label {
-        font-weight: bold;
-        color: #323232;
-      }
-
-      .tabs-title a{
-        background-color: #3785BD;
-      }
-
-      .tabs-label {
         color: white;
+        font-weight: bold;
+      }
+
+
+      .tabs-title>a[aria-selected=true] {
+        background: #3785BD;
+      }
+
+      .tabs-title {
+        background-color: #84B5D8;
+      }
+
+      .help-labels:hover {
+        font-weight: bold;
+        background-color: #E6E6E6;
       }
 
     </style>
